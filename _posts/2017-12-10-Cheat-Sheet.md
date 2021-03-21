@@ -1,6 +1,6 @@
 ---
-title: Another Sample Page
-published: true
+title: Cheat Sheet
+published: false
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
