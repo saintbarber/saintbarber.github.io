@@ -140,9 +140,20 @@ dt {
   font-weight: bold;
 }
 
+// ul li {
+//   list-style-image:url('../assets/bullet.png');
+// }
+
 ul li {
-  list-style-image:url('../assets/bullet.png');
+	margin: 0;
+	padding: 10px 0 36px 75px;
+	list-style: none;
+	background-image: url("../assets/bullet.png");
+	background-repeat: no-repeat;
+	background-position: left top center;
+	background-size: 55px;
 }
+
 
 blockquote {
   color: $blockquote-color;
@@ -189,8 +200,9 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #b5e853;
-  color: #b5e853;
+  // border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px dotted $light_pink;
+  // color: #b5e853;
 }
 
 /* Buttons
@@ -235,7 +247,8 @@ hr {
 */
 
 a {
-  color: #63c0f5;
+  // color: #63c0f5;
+  color: #a700bd;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
