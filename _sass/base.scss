@@ -249,8 +249,10 @@ hr {
 a {
   // color: #63c0f5;
   color: #a700bd;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  // text-decoration: none;
+  // text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
+
 
 a:active, a:focus {
   outline: 0;
@@ -283,4 +285,45 @@ a:active, a:focus {
 
 #wrapper {
   min-height: calc(100vh - 100px);
+}
+
+// Index page title stuff
+
+.tag {
+
+  pointer-events: none;
+  background-color: #ff29ff36;
+  border: none;
+  color: #ffffff;
+  padding: 1px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #a700bd;
+  height: 20px;
+}
+
+.time-title {
+  color: rgb(122, 122, 122);
+}
+
+.hr-title {
+  // height: 0;
+  // border: 0;
+  margin-top: -10px;
+  border-bottom: 3px dashed $light_pink;
+}
+
+
+//Remove underline from link
+.title {
+  text-decoration: none;
+  // margin-bottom: -1000px;
+  
 }
