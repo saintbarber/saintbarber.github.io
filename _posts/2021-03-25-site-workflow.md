@@ -62,7 +62,11 @@ Then i created another symbolic link from the above `images` folder that points 
 
 ![](images/Pasted%20image%2020210326001237.png)
 
-Now i can reference all my screenshots in obsidian 
+Now i can reference all my screenshots in obsidian.
+
+_NOTE:_ Dont forget to add the images symbolic link to your `.gitignore` file.
+
+![](images/Pasted%20image%2020210326013812.png)
 
 ### Jekyll
 
