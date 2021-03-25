@@ -7,14 +7,15 @@
 
 $body-background: $cod-grey !default;
 $body-foreground: $gallery !default;
-$header: $conifer !default;
+$header: $light_pink !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
+
 
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../assets/bkg.png") 0 0;
+  background: $body-background url("../assets/wallpaper.png") center;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
@@ -144,15 +145,15 @@ dt {
 //   list-style-image:url('../assets/bullet.png');
 // }
 
-ul li {
-	margin: 0;
-	padding: 10px 0 36px 75px;
-	list-style: none;
-	background-image: url("../assets/bullet.png");
-	background-repeat: no-repeat;
-	background-position: left top center;
-	background-size: 55px;
-}
+// ul li {
+// 	margin: 0;
+// 	padding: 0 0 0 50px;
+// 	list-style: none;
+// 	background-image: url("../assets/bullet.png");
+// 	background-repeat: no-repeat;
+// 	background-position: left top center;
+// 	background-size: 55px;
+// }
 
 
 blockquote {
@@ -295,7 +296,7 @@ a:active, a:focus {
   background-color: #ff29ff36;
   border: none;
   color: #ffffff;
-  padding: 1px 15px;
+  padding: 1px 13px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -320,10 +321,20 @@ a:active, a:focus {
   border-bottom: 3px dashed $light_pink;
 }
 
+.list-title {
+	margin: 0;
+	padding: 8px 0 15px 68px;
+	list-style: none;
+	background-image: url("../assets/bullet.png");
+	background-repeat: no-repeat;
+	background-position: left top center;
+	background-size: 50px;
+}
+
 
 //Remove underline from link
 .title {
   text-decoration: none;
-  // margin-bottom: -1000px;
+  color: #ef75ff
   
 }

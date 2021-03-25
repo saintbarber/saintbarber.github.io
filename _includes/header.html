@@ -1,8 +1,8 @@
 <header>
   <div>
     <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
-    {% assign owner_first_name = site.owner | split: " " %}
-    <h1>{{ owner_first_name[0] | downcase }}@BarberShop:~$</h1>
+    {% assign author_name = site.author.name | split: " " %}
+    <h1>{{ author_name[0] | downcase }}@BarberShop:~$</h1>
     </a>
     <div class="header-links">
       {% include links.html %}
