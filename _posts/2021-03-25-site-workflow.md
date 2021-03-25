@@ -112,5 +112,12 @@ echo "---" >> "$filename"
 
 This script takes the post title as the first argument and creates the file with the correct format as mentioned above in my obsidian notes folder and then adds the boiler plate code for each post.
 
+Once i finish writing my post i just commit and push to my repository.
 
+From site root directory
+```bash
+git add .
+git commit
+git push
+```
 
