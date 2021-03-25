@@ -15,7 +15,8 @@ $blockquote-border: $dove-grey !default;
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../assets/wallpaper.png") center;
+  background: #000000 url("../assets/wallpaper.png") center;
+  background-repeat: no-repeat;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
