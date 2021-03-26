@@ -36,7 +36,7 @@ Here is a small demo showing how i integrated obsidian with editing posts on my 
 
 <div class="embed-container">
   <iframe
-      src="images/demo.mp4"
+      src='images/demo.mp4'
       width="700"
       height="480"
       scrolling="no"
