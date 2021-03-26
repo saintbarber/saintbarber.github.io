@@ -32,7 +32,6 @@ And everything below will be renderd as kramdown the default markdown renderer f
 ## Workflow 
 ### Demo
 Here is a small demo showing how i integrated obsidian with editing posts on my site.
-(Sorry about the half-grey video, dont know how to fix it)
 
 <div class="embed-container">
   <iframe
