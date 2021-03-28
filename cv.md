@@ -52,7 +52,7 @@ ___
 #### Cyprus University of Technology
 ###### COMPUTER ENGINEERING AND INFORMATICS
 
-- Expected graduation date: Decmber 2021
+- Expected graduation date: December 2021
 - KIE Online Platform with PHP Laravel
 - Accounting Program with C
 - Advanced Mathematics
