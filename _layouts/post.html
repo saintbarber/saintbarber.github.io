@@ -9,6 +9,7 @@ layout: default
   {% endfor%}
   <br>
   <time class="time-title" datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
+  - {% include read_time.html %}
   <hr>
   {{ content }}
 </article>
