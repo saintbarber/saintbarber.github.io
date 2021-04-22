@@ -48,7 +48,7 @@ and the web page wanted to fetch `/js/main.js` it would make a request to `http:
 
 The CCSC gave all its competitors an attack machine (192.168.125.100) which we could use to get reverse shells, etc. since the challenges cannot access the internet.
 
-I next viewed the source code of the app to see which javascript file i could fake, i used `/static/js/main.js`. I ssh'ed into my attack machine, created the directory tree and a `main.js` file with `<script>alert(1)</script>` as its contents. Then i used `php` to start a web server on port `1234`
+I next viewed the source code of the app to see which javascript file i could fake, i used `/static/js/main.js`. I ssh'ed into my attack machine, created the directory tree and a `main.js` file with `alert(1)` as its contents. Then i used `php` to start a web server on port `1234`
 
 ![](images/Pasted%20image%2020210421201658.png)
 
