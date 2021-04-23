@@ -85,7 +85,7 @@ And there you go, i am now getting requests on my attack machine from the admin 
 
 ![](images/Pasted%20image%2020210421222129.png)
 
-But all that is happening to the admin user is a simple alert box, i want to see the contents of `/admin`, i updated my `main.js` file to simply make an ajax request to `/admin` and then redirect the admin to my attack machine with `window.location.replace` and add the contents from the ajax request in a GET parameter url encoded
+But all that is happening to the admin user is a simple alert box, i want to see the contents of `/admin`, i updated my `main.js` file to simply make an ajax request to `/admin` and then redirect the admin to my attack machine with `window.location.replace` and add the contents from the ajax request in a GET parameter base64 encoded
 
 Here is the final payload of `main.js`
 
