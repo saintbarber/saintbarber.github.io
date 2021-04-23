@@ -100,21 +100,29 @@ Well this is where simple maths comes to play. If i have 3 equations with 3 unkn
 First i need 4 values to create my 3 equations. Ill stick with the same 4 values from the above screenshot.
 
 1) `13b313a26f4db61e`
+
 2) `966f7590fac9de51`
+
 3) `5d5149a304940ba1`
+
 4) `4c4ec62f72afc1f4`
 
 Now i converted each from hex to integers 
 
 1) `1419499895924831774`
+
 2) `10840012093647347281`
+
 3) `6724236683146169249`
+
 4) `5498550102155837940`
 
 And from here i can create the 3 equations from how the values were created:
 
 1)  `10840012093647347281  = (1419499895924831774 * multiplier + addend) mod modulus`
+
 2)  `6724236683146169249 = (10840012093647347281 * multiplier + addend) mod modulus`
+
 3)  `5498550102155837940 = (6724236683146169249 * multiplier + addend) mod modulus`
 
 Okay now i can cancel out the addend easily by subtracting eq.2 from eq.1 and then subtract eq.3 from eq.1, this will give me eq.4 and eq.5 without the addend
@@ -243,8 +251,11 @@ Now i have cracked the PRNG i checked if it could actually work on the server, t
 
 The four values were 
 1) `6f4e0d9c6a248adb`
+
 2) `3c5eb392c7386f1c`
+
 3) `54e9c3411b728ea5`
+
 4) `5eb68dc914ffd679`
 
 
