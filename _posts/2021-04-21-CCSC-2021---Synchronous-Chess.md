@@ -64,7 +64,7 @@ Since i was stuck i went to [burp academy](https://portswigger.net/web-security/
 
 ![](images/Pasted%20image%2020210421203024.png)
 
-Http request smuggling sounds perfect for this challenge, in simple terms if the web app is prone to http request smuggling i could send a request like the below screenshot. By abusing the `Content-Length` or `Transfer-Encoding` header the front-end and backend do not aggree on which one to use, as a result the back-end views the smuggled request as a seperate one, this request get stored in the web cache and the next request another user makes will get the response of the smuggled request. 
+Http request smuggling sounds perfect for this challenge, in simple terms if the web app is prone to http request smuggling i could send a request like the below screenshot. By abusing the `Content-Length` or `Transfer-Encoding` header, the front-end and backend do not aggree on which one to use, as a result the back-end views the smuggled request as a seperate one, this request get stored in the web cache and the next request another user makes will get the response of the smuggled request. 
 
 ![](images/Pasted%20image%2020210421204219.png)
 
@@ -73,7 +73,7 @@ I added the `HTTP Request Smuggler` extension to burp suite and scanned the web 
 
 ![](images/Pasted%20image%2020210421221039.png)
 
-Perfect, I sent the above request to my repeater and used the smuggle attack(CL.TE) to check if i could smuggle a request. As you can see from the below screenshots, i smuggle a GET request to a non-exsitent page witin my POST request to `/login`. In the second screenshot we notice that at some point the POST request to `/login` responded with 404!
+Perfect, I sent the above request to my repeater and used the smuggle attack(CL.TE) to check if i could smuggle a request. As you can see from the below screenshots, i smuggle a GET request to a non-exsitent page within my POST request to `/login`. In the second screenshot we notice that at some point the POST request to `/login` responded with 404!
 
 ![](images/Pasted%20image%2020210421221322.png)
 
